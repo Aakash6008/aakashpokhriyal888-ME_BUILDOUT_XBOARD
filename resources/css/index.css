@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    background-color: #f8f9fa!important;
+}
+
+#containerOne{
+    padding-left: 2%;
+}
+.navbar-light .navbar-brand {
+    color: #e9ecef;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    cursor: pointer;
+}
+
+.rectangle {
+    width: 27px;
+    height: 9px;
+    left: 1px;
+    top: 10px;
+    background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+    border-radius: 4.5px;
+}
+
+.today{
+
+    color: #252B42;
+     font-size: 24px;
+     font-family: Montserrat;
+     font-weight: 600;
+     line-height: 32px;
+     word-wrap: break-word
+}
+
+
+.para{
+    
+    width: 331px;
+    height: 28px;
+    left: 116px;
+    top: 165px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #858585;
+    }
+
+.card {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+.card-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #292B2E;
+}
+
+.accordion-button {
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #737373;
+}
+
+.card-author {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #586069;
+}
+
+.card-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #292B2E;
+}
+
+img {
+    height: 60%;
+    filter: brightness(70%);
+    transition: filter 0.3s ease-in-out;
+}
+
+img:hover {
+    filter: brightness(100%);
+}
+
+.ellipse {
+    height: 9px;
+    width: 9px;
+    margin: 0 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.card-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.row {
+    overflow: hidden;
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+    .container {
+        width: 100%;
+    }
+
+    img {
+        height: 30%;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        margin-top: 32%;
+    }
+
+    .card {
+        font-size: 20px;
+    }
+}
